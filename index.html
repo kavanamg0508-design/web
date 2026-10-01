@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kavana - Computer Science Student</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f4f7fb;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(135deg, #4facfe, #00f2fe);
+            color: white;
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        header h1 {
+            font-size: 45px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 20px;
+        }
+
+        nav {
+            background-color: #222;
+            text-align: center;
+            padding: 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 20px;
+            font-size: 17px;
+        }
+
+        nav a:hover {
+            color: #00d9ff;
+        }
+
+        section {
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 30px;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        section h2 {
+            color: #0077cc;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+
+        .skills {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        .skill {
+            background-color: #0077cc;
+            color: white;
+            padding: 12px 25px;
+            border-radius: 25px;
+        }
+
+        .projects {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .project {
+            width: 280px;
+            padding: 20px;
+            background-color: #f1f8ff;
+            border-radius: 10px;
+            border-left: 5px solid #0077cc;
+        }
+
+        .project h3 {
+            color: #0077cc;
+            margin-bottom: 10px;
+        }
+
+        .contact {
+            text-align: center;
+        }
+
+        footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 32px;
+            }
+
+            nav a {
+                margin: 0 8px;
+                font-size: 14px;
+            }
+
+            section {
+                margin: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Hi, I'm Kavana</h1>
+        <p>2nd Year Computer Science Engineering Student</p>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            Hello! My name is Kavana. I am a 2nd year Computer Science
+            Engineering student. I am interested in programming, web
+            development, and learning new technologies.
+        </p>
+    </section>
+
+    <section id="skills">
+        <h2>My Skills</h2>
+
+        <div class="skills">
+            <div class="skill">HTML</div>
+            <div class="skill">CSS</div>
+            <div class="skill">Java</div>
+            <div class="skill">Python</div>
+            <div class="skill">C Programming</div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>My Projects</h2>
+
+        <div class="projects">
+            <div class="project">
+                <h3>Student Portfolio</h3>
+                <p>A personal portfolio website created using HTML and CSS.</p>
+            </div>
+
+            <div class="project">
+                <h3>Student Management System</h3>
+                <p>A simple project for managing student information.</p>
+            </div>
+
+            <div class="project">
+                <h3>Calculator</h3>
+                <p>A basic calculator created using HTML, CSS and JavaScript.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <p>Email: your-email@example.com</p>
+        <p>Phone: +91 XXXXX XXXXX</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Kavana. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
+
